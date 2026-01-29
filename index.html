@@ -12,19 +12,17 @@
 
     <h1 class="title">Академия брокеров Smineх</h1>
 
-    <div class="search">
-      🔍 Найти курс...
-    </div>
+    <div class="search">🔍 Найти курс...</div>
 
     <div class="course-card">
       <img src="https://images.unsplash.com/photo-1501183638710-841dd1904471" />
       <div class="course-info">
-        <h2>Foriver — квартал у Кремля</h2>
-        <p>Ваш прогресс:</p>
+        <h2>Foriver — самый близкий к Кремлю квартал</h2>
+        <p>Ваш прогресс: 11%</p>
         <div class="progress-bar">
           <div class="progress" style="width: 11%"></div>
         </div>
-        <button>Продолжить обучение</button>
+        <button onclick="openCourse()">Продолжить обучение</button>
       </div>
     </div>
 
@@ -33,22 +31,31 @@
 
       <div class="lesson done">
         <div>
-          <strong>Урок 1</strong><br/>
-          Своя пешеходная набережная
+          <div class="lesson-title">Урок 1</div>
+          <div class="lesson-sub">Своя пешеходная набережная</div>
         </div>
         <span class="badge">Завершен</span>
       </div>
 
       <div class="lesson">
-        <div>
-          <strong>Урок 2</strong><br/>
-          Новый район в центре истории
-        </div>
+        <div class="lesson-title">Урок 2</div>
+        <div class="lesson-sub">Новый район в центре истории</div>
       </div>
 
+      <div class="lesson">
+        <div class="lesson-title">Урок 3</div>
+        <div class="lesson-sub">Архитектура и окружение</div>
+      </div>
     </div>
 
   </div>
 
+  <script>
+    function openCourse() {
+      alert("Позже здесь будет открываться страница курса");
+    }
+  </script>
+
 </body>
 </html>
+
