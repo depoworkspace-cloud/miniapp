@@ -1,58 +1,55 @@
-* {box-sizing:border-box;}
-
 body {
-  margin:0;
-  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
-  background:#f2f4f7;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f4f7;
 }
 
 .container {
-  max-width:480px;
-  margin:auto;
-  padding:16px;
-}
-
-.lesson-page {
-  background:#fff;
-  border-radius:24px;
-  padding:22px;
-  margin-bottom:22px;
-  box-shadow:0 10px 30px rgba(0,0,0,0.08);
-}
-
-.lesson-page h2 {
-  margin-top:0;
-  font-size:20px;
-}
-
-.lesson-page p {
-  line-height:1.6;
-  color:#444;
-}
-
-.lesson-block {
-  background:#f7f8fa;
-  padding:14px;
-  border-radius:16px;
-  margin:12px 0;
-}
-
-.done-btn {
-  margin-top:16px;
-  width:100%;
-  padding:14px;
-  border-radius:40px;
-  border:none;
-  background:#111;
-  color:#fff;
-  font-weight:600;
+  max-width: 480px;
+  margin: auto;
+  padding: 16px;
 }
 
 .back {
-  background:#fff;
-  border:none;
-  padding:10px 16px;
-  border-radius:30px;
-  box-shadow:0 5px 15px rgba(0,0,0,0.08);
-  margin-bottom:16px;
+  margin-bottom: 16px;
+  padding: 10px 14px;
+  border-radius: 20px;
+  border: none;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.lesson-page {
+  background: white;
+  padding: 18px;
+  border-radius: 18px;
+  margin-bottom: 18px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+}
+
+.lesson-page h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.lesson-page p {
+  color: #444;
+  line-height: 1.5;
+}
+
+.block {
+  background: #f7f8fa;
+  padding: 12px;
+  border-radius: 14px;
+  margin-top: 12px;
+}
+
+.done-btn {
+  margin-top: 14px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  background: #111;
+  color: white;
 }
